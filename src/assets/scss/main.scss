@@ -1,0 +1,79 @@
+@charset "utf-8";
+.fade-enter-active, .fade-leave-active {
+  transition: all 0.5s ease-out;
+}
+
+.fade-enter {
+  transform: translateY(-500px);
+  opacity: 0;
+}
+
+.fade-leave-active {
+  transform: translateY(500px);
+  opacity: 0;
+}
+
+$primary-color: #9965C7;
+
+#app {
+}
+
+.container {
+  padding: 0;
+  display: flex;
+  flex-flow: nowrap row;
+  align-items: stretch;
+  justify-items: stretch;
+  position: relative;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.menuBox {
+  height: 100vh;
+  width: 60px;
+  flex: 0 0 60px;
+  background-color: $primary-color;
+
+  .logo {
+    height: 40px;
+    width: 100%;
+    background: black;
+  }
+
+  .el-menu {
+    background-color: transparent;
+    border: 0;
+
+    .el-menu-item {
+      padding: 0 !important;
+      text-align: center;
+    }
+  }
+
+  .scrollbar-wrapper {
+    height: 100vh;
+  }
+
+  .fa {
+    font-size: 2rem;
+  }
+}
+
+.containerBox {
+  flex: 1;
+  overflow: hidden;
+
+  .header {
+    height: 40px;
+    background: white;
+    line-height: 40px;
+    padding: 0 10px;
+  }
+
+  .main {
+    margin: 1rem;
+    background: white;
+    overflow: auto;
+  }
+}

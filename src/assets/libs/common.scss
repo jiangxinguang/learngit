@@ -1,0 +1,485 @@
+* {
+  margin: 0;
+  padding: 0
+}
+
+$primary-color: #9965C7;
+body, h1, h2, h3, h4, h5, h6, hr, p, blockquote, dl, dt, dd, ul, ol, li, pre, form, fieldset, legend, button, input, textarea, th, td {
+  margin: 0;
+  padding: 0
+}
+
+header, section, footer, aside, nav, article, figure {
+  display: block
+}
+
+address, cite, dfn, em, var {
+  font-style: normal
+}
+
+code, kbd, pre, samp {
+  font-family: courier new, curier, monospace
+}
+
+button, input, select, textarea {
+  font-size: 100%;
+  font-family: inherit;
+  line-height: inherit
+}
+
+small {
+  font-size: 75%
+}
+
+ul, ol {
+  list-style: none
+}
+
+button, .btn {
+  font-size: 100%;
+  cursor: pointer
+}
+
+a, a:hover, a:link, a:active, a:visited {
+  text-decoration: none;
+  cursor: pointer;
+  color: inherit;
+  font-size: 100%;
+  font-family: inherit
+}
+
+fieldset, img {
+  border: 0
+}
+
+img {
+  max-width: 100%;
+  vertical-align: middle;
+  border: 0
+}
+
+sup {
+  vertical-align: text-top
+}
+
+sub {
+  vertical-align: text-bottom
+}
+
+legend {
+  color: #000
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0
+}
+
+.clear {
+  clear: both;
+  float: none;
+  height: 0;
+  overflow: hidden
+}
+
+.hide {
+  display: none
+}
+
+html {
+  font-size: 16px;
+  height: 100%
+}
+
+body {
+  font-family: "Microsoft YaHei", serif;
+  font-size: .875rem;
+  line-height: 1.5;
+  background: #f1f1f1;
+  color: #5a5a5a;
+  overflow-x: hidden;
+  overflow-y: auto;
+  height: 100%
+}
+
+.w {
+  width: auto
+}
+
+.w25 {
+  width: 25%
+}
+
+.w50 {
+  width: 50%
+}
+
+.w75 {
+  width: 75%
+}
+
+.w100 {
+  width: 100%
+}
+
+.h {
+  height: auto
+}
+
+.h25 {
+  height: 25%
+}
+
+.h50 {
+  height: 50%
+}
+
+.h75 {
+  height: 75%
+}
+
+.h100 {
+  height: 100%
+}
+
+.m0 {
+  margin: 0
+}
+
+.m10 {
+  margin: 10px
+}
+
+.m15 {
+  margin: 15px
+}
+
+.m30 {
+  margin: 30px
+}
+
+.mt0 {
+  margin-top: 0
+}
+
+.mt5 {
+  margin-top: 5px
+}
+
+.mt10 {
+  margin-top: 10px
+}
+
+.mt15 {
+  margin-top: 15px
+}
+
+.mt50 {
+  margin-top: 50px
+}
+
+.mt100 {
+  margin-top: 100px
+}
+
+.mb0 {
+  margin-bottom: 0
+}
+
+.mb5 {
+  margin-bottom: 5px
+}
+
+.mb10 {
+  margin-bottom: 10px
+}
+
+.mb15 {
+  margin-bottom: 15px
+}
+
+.mb100 {
+  margin-bottom: 100px
+}
+
+.ml0 {
+  margin-left: 0
+}
+
+.ml5 {
+  margin-left: 5px
+}
+
+.ml10 {
+  margin-left: 10px
+}
+
+.ml15 {
+  margin-left: 15px
+}
+
+.ml20 {
+  margin-left: 20px
+}
+
+.ml30 {
+  margin-left: 30px
+}
+
+.ml50 {
+  margin-left: 50px
+}
+
+.ml100 {
+  margin-left: 100px
+}
+
+.mr0 {
+  margin-right: 0
+}
+
+.mr5 {
+  margin-right: 5px
+}
+
+.mr10 {
+  margin-right: 10px
+}
+
+.mr15 {
+  margin-right: 15px
+}
+
+.mr50 {
+  margin-right: 50px
+}
+
+.mr100 {
+  margin-right: 100px
+}
+
+.p0 {
+  padding: 0
+}
+
+.p10 {
+  padding: 10px
+}
+
+.p15 {
+  padding: 15px
+}
+
+.p30 {
+  padding: 30px
+}
+
+.pt0 {
+  padding-top: 0
+}
+
+.pt5 {
+  padding-top: 5px
+}
+
+.pt10 {
+  padding-top: 10px
+}
+
+.pt15 {
+  padding-top: 15px
+}
+
+.pt20 {
+  padding-top: 20px
+}
+
+.pt30 {
+  padding-top: 30px
+}
+
+.pt50 {
+  padding-top: 50px
+}
+
+.pb0 {
+  padding-bottom: 0
+}
+
+.pb5 {
+  padding-bottom: 5px
+}
+
+.pb100 {
+  padding-bottom: 100px
+}
+
+.pl0 {
+  padding-left: 0
+}
+
+.pl5 {
+  padding-left: 5px
+}
+
+.pl10 {
+  padding-left: 10px
+}
+
+.pl50 {
+  padding-left: 50px
+}
+
+.pl100 {
+  padding-left: 100px
+}
+
+.pr0 {
+  padding-right: 0
+}
+
+.pr5 {
+  padding-right: 5px
+}
+
+.pr10 {
+  padding-right: 10px
+}
+
+.pr15 {
+  padding-right: 15px
+}
+
+.pr100 {
+  padding-right: 100px
+}
+
+.anchorBL {
+  display: none
+}
+
+.fl {
+  float: left
+}
+
+.fr {
+  float: right
+}
+
+.clear {
+  clear: both
+}
+
+.clearfix {
+  *zoom: 1;
+}
+
+.clearfix::after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0
+}
+
+.dDlock {
+  display: block
+}
+
+.dInline {
+  display: inline
+}
+
+.dInlineBlock {
+  display: inline-block
+}
+
+.dNone {
+  display: none
+}
+
+.flex {
+  display: flex;
+  display: -webkit-flex
+}
+
+.flexVer {
+  -webkit-align-items: center;
+  align-items: center
+}
+
+  .flexAround {
+  -webkit-justify-content: space-around;
+  justify-content: space-around
+}
+
+.flexBetween {
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between
+}
+
+.btn {
+  display: inline-block;
+  font-size: inherit;
+  border-radius: 3px;
+  color: #fff;
+  box-shadow: 0 2px 8px 1px rgba(9, 166, 7, .25);
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box
+}
+
+.mainColor {
+  color: $primary-color
+}
+
+.mainBgColor {
+  background-color: $primary-color
+}
+
+.mainBorderColor {
+  border-color: $primary-color
+}
+
+.mainBtn {
+  display: inline-block;
+  color: #f1f1f1;
+  background-color: $primary-color;
+  border: 1px solid $primary-color;
+  cursor: pointer;
+  line-height: initial;
+  padding: .25rem .85rem;
+  vertical-align: initial;
+  font-size: .875rem;
+  border-radius: .25rem
+}
+
+.mainBtn + .mainBtn {
+  margin-left: .5rem
+}
+
+.mainBtnSm {
+}
+
+.mainBtnLg {
+}
+
+.mainBtn:hover {
+  color: $primary-color;
+  background-color: #f1f1f1;
+  border: 1px solid #f1f1f1
+}
+
+.textEllipsis {
+  max-width: 100%;
+  height: 24px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap
+}
+
+td.textEllipsis {
+  max-width: 70px
+}
